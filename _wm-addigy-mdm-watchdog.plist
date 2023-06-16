@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PluginName</key>
+	<string>_wm_Addigy MDM Watchdog Results</string>
+	<key>PluginSlug</key>
+	<string>wm-addigy-mdm-watchdog</string>
+	<key>PluginUUID</key>
+	<string>A5A0B373-62B8-4946-AE00-ED964953A20F</string>
+		<key>PluginVersion</key>
+	<string>1.0.0.0</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>_wm-addigy-mdm-watchdog.plugin</string>
+	</array>
+</dict>
+</plist>
