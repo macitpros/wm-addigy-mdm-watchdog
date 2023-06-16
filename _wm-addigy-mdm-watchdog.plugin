@@ -12,5 +12,5 @@ WATCHDOGJSON="$(cat /Library/Application\ Support/mdm-watchdog/state.json | sed 
 WATCHDOGLOG="$(log show --style syslog --predicate 'process == "mdm-watchdog"' -last 2h)"
 
 # Report only... no alerting
-echo "Addigy MDM Watchdog is installed. \n$WATCHDOGJSON\n\nMore details from the last 2 hours of log entries:\n$WATCHDOGLOG"
+echo "Addigy MDM Watchdog is installed. Latest Run:\n$WATCHDOGJSON\n\nMore details from the last 2 hours of log entries:\n$WATCHDOGLOG"
 exit 0

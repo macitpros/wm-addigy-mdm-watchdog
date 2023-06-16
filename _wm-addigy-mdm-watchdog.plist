@@ -9,7 +9,7 @@
 	<key>PluginUUID</key>
 	<string>A5A0B373-62B8-4946-AE00-ED964953A20F</string>
 		<key>PluginVersion</key>
-	<string>1.0.0.0</string>
+	<string>1.0.0.1</string>
 	<key>ProgramArguments</key>
 	<array>
 		<string>_wm-addigy-mdm-watchdog.plugin</string>
