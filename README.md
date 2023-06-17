@@ -12,14 +12,16 @@ Provides results of `/Library/Application\ Support/mdm-watchdog/state.json` on t
 
 Provides the results of `log show --style syslog --predicate 'process == "mdm-watchdog"' -last 2h` which is the last 2 hours of logs from Apple's unified log that included the `mdm-watchdog` process.
 Which includes:
-```MDMEnrolled
+```
+MDMEnrolled
 MDMIdentityError
 MDMClientStuck
 MDMSoftwareUpdatesStuck
 MDMClientRestarted
 SoftwareUpdateDaemonRestarted
 LastMDMKickstart
-LastSoftwareUpdateDaemonKickstart```
+LastSoftwareUpdateDaemonKickstart
+```
 
 Output not pretty, but usable.
 ![Capture_2023-06-17_06-06-52_AM](https://github.com/macitpros/wm-addigy-mdm-watchdog/assets/17754199/a72606f6-c063-4059-82c3-a1e1e451bd58)
