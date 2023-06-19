@@ -4,6 +4,8 @@ Custom plugin for [Watchman Monitoring](https://www.watchmanmonitoring.com) to p
 
 No alerting, this plugin provides reporting only.
 
+The .plugin and .plist file need to be installed in `/Library/MonitoringClient/Plugins` or use the [installer package](https://github.com/macitpros/wm-addigy-mdm-watchdog/blob/master/wm-addigy-mdm-watchdog/build/wm-addigy-mdm-watchdog.pkg).
+
 ## Requires
 [Addigy MDM Watchdog](https://addigy.com/mdm-watchdog/) by [Addigy](https://addigy.com/) to be installed.
 
@@ -23,7 +25,7 @@ LastMDMKickstart
 LastSoftwareUpdateDaemonKickstart
 ```
 
-Output not pretty, but usable.
+Output is not pretty, but usable.
 ![Capture_2023-06-17_06-06-52_AM](https://github.com/macitpros/wm-addigy-mdm-watchdog/assets/17754199/a72606f6-c063-4059-82c3-a1e1e451bd58)
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
