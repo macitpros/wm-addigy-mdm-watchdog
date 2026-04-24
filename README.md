@@ -1,3 +1,4 @@
+# [ARCHIVED] No Longer In Use or Maintained
 # wm-Addigy MDM Watchdog Results
 
 Custom plugin for [Watchman Monitoring](https://www.watchmanmonitoring.com) to provide results of [Addigy MDM Watchdog](https://addigy.com/mdm-watchdog/).
